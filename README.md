@@ -5,6 +5,17 @@
 
 #### [Alternative reference PyTorch implementation](https://github.com/williamleif/graphsage-simple/)
 
+### Installation
+```
+git clone <this repo>
+conda create -n graphsage python==3.5
+source activate graphsage
+cd GraphSAGE
+pip install --upgrade tensorflow==1.8.0 --user
+pip intall -r requirements.txt --user # Is --user necessary?
+# TODO: tensorflow GPU version?
+```
+
 ### Overview
 
 This directory contains code necessary to run the GraphSage algorithm.

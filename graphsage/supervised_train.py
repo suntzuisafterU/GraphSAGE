@@ -336,4 +336,7 @@ def main(argv=None):
     train(train_data)
 
 if __name__ == '__main__':
+    # Means current file is executed under a shell instead of imported
+    # as a module.
+    # source: https://stackoverflow.com/questions/33703624/how-does-tf-app-run-work
     tf.app.run()
