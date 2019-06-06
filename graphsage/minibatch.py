@@ -5,6 +5,11 @@ import numpy as np
 
 np.random.seed(123)
 
+"""
+NOTE: EdgeMinibatchIterator is used by the unsupervised_learing code, and
+      NodeMinibatchIterator is used by the supervised_learning code.
+      Therefor we are mote interested in the EdgeMinibatchIterator if at all.
+"""
 class EdgeMinibatchIterator(object):
     
     """ This minibatch iterator iterates over batches of sampled edges or
